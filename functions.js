@@ -26,3 +26,11 @@ function powerss(base, exponent) {
     return base + exponent;
 }
 console.log(powerss('hello'));
+function optional(name, age) {
+    return "hello ".concat(name, ", iam ").concat(age, " years old ");
+}
+console.log(optional("Nafila", "18"));
+// Function Type directly defined
+var added;
+added = function (x, y) { return x + y; };
+console.log(added(5, 10));

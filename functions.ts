@@ -35,3 +35,19 @@ function powerss(base:string,exponent :string = "nafila"):string{
   return base + exponent
 }
 console.log(powerss('hello'));
+
+
+function optional(name : string , age ?: string): string {
+  return `hello ${name}, iam ${age} years old `
+}
+console.log(optional("Nafila","18"));
+
+ 
+// Function Type directly defined
+
+let added :(a:number, b:number)=>number 
+  added = (x,y)=> x+y
+
+console.log(added(5,10));
+
+
