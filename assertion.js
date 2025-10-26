@@ -8,3 +8,8 @@ var valuetype = value;
 var valuetype2 = value.length;
 console.log(valuetype);
 console.log(valuetype2);
+function val() {
+    return 123456;
+}
+var name = val();
+console.log(name);
